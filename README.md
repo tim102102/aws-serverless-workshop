@@ -56,6 +56,35 @@ Lastly, we need to install the AWS CLI
 brew install awscli
 ```
 
+### Windows
+
+#### Full and updated instructions: 
+https://docs.aws.amazon.com/cli/latest/userguide/awscli-install-windows.html
+
+#### Installing Node + Serverless Framework
+
+- [NodeJS download page](https://nodejs.org/en/download)
+- [NodeJS 64-bit installer](https://nodejs.org/dist/v8.12.0/node-v8.12.0-x64.msi)
+- [NodeJS 32-bit installer](https://nodejs.org/dist/v8.12.0/node-v8.12.0-x86.msi)
+
+
+Now that we have Node installed we want to install the [Serverless Framework](https://serverless.com/). This framework comes as a npm package that we will want to install globally on our machine.
+
+```bash
+npm install -g serverless
+```
+
+#### Installing Python + Pip
+
+- [Python download page](https://www.python.org/downloads/release/python-367)
+- [Python 64-bit installer](https://www.python.org/ftp/python/3.6.7/python-3.6.7-amd64.exe)
+- [Python 32-bit installer](https://www.python.org/ftp/python/3.6.7/python-3.6.7.exe)
+
+#### Installing AWS CLI
+The easiest way to install the AWS CLI is to download and run the MSI
+- [AWS CLI 64-bit installer](https://s3.amazonaws.com/aws-cli/AWSCLI64PY3.msi)
+- [AWS CLI 32-bit installer](https://s3.amazonaws.com/aws-cli/AWSCLI32PY3.msi)
+
 #### Setting AWS Credentials
 
 Now that we have installed Python, Pip, Node and the Serverless Framework. We need to setup our AWS Access and Secret keys to be used by the Serverless Framework.
@@ -96,9 +125,6 @@ We will want to update the default profile in our credentials file with our new 
 aws_access_key_id = your_access_key_here
 aws_secret_access_key = your_secret_key_here
 ```
-
-### Windows
-
 
 ## Presentation
 
