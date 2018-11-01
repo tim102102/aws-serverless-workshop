@@ -2,8 +2,7 @@
 
 # AWS Serverless Workshop
 
-Example code for the 2018 AWS Community Day Midwest workshop seminar on Serverless, presented by Tyler Hendrickson
-of [Shiftgig, Inc](https://shiftgig.com).
+Example code for the 2018 AWS Community Day Midwest workshop seminar on Serverless, presented by Tyler Hendrickson.
 
 ## Setup
 
@@ -27,7 +26,7 @@ branch. Additional functionality found on this branch includes:
 
 ## Contact
 
-You can get in touch with me via email: [tyler@shiftgig.com](mailto:tyler@shiftgig.com)
+You can get in touch with me via email: [hendrickson.tsh@gmail.com](mailto:hendrickson.tsh@gmail.com)
 
 
 ## Useful Links
