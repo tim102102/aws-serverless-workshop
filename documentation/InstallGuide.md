@@ -10,7 +10,7 @@ We will be leveraging Python and the Serverless framework for this workshop.
 
 ### Package Manager
 
-![Homebrew](../assets/images/homebrew.png)
+![Homebrew](images/homebrew.png)
 
 We will be using [Homebrew](https://brew.sh/) to manage our software installs. To install Homebrew run the following command in Terminal 
 
@@ -96,17 +96,17 @@ To create a programmatic user we will need to navigate to the [IAM Management Co
 
 Create a user, making sure to grant programmatic access. This will generate an access and secret key that the Serverless Framework will need to create resources for us
 
-![Add User](../assets/images/add-user.png)
+![Add User](images/add-user.png)
 
 Next we will want to give our new user Admin rights. In production we would only grant the rights we need for an application but since this is a quick demo application lets select `AdministratorAccess`.
-![Admin Rights](../assets/images/admin-rights.png)
+![Admin Rights](images/admin-rights.png)
 
 After creating the user make sure to download the user credentials as a csv. 
 
 
 _*NOTE*: This is the only time you will be able to download the credentials. If you do not do this now you will need to create a completely new user._
 
-![User Creds](../assets/images/user-creds.png)
+![User Creds](images/user-creds.png)
 
 Our last step is to add our new Access and Secret key to our list of AWS Credentials. To check our current credentials, run the following command.
 
