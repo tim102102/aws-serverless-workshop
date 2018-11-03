@@ -121,13 +121,29 @@ _*NOTE*: This is the only time you will be able to download the credentials. If 
 
 ![User Creds](../assets/images/user-creds.png)
 
-Our last step is to add our new Access and Secret key to our list of AWS Credentials. To check our current credentials, run the following command.
+Our last step is to configure your AWS CLI with the credentials you just downloaded. In a terminal (for Mac)/ command prompt (for windows), run 
 
 ```bash
-cat ~/.aws/credentials
+aws configure
 ```
 
-We will want to update the default profile in our credentials file with our new access and secret keys
+Alternatively, you can provide a profile name when you run the command, if you want to maintain multiple sets of credentials for different projects, for example 
+
+```bash
+aws configure --profile serverless-workshop
+```
+
+And paste credentials when prompted: 
+
+```bash
+$ aws configure
+AWS Access Key ID [None]: AKIAIOSFODNN7EXAMPLE
+AWS Secret Access Key [None]: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+Default region name [None]: us-east-2
+Default output format [None]: json
+```
+
+Running this will in effect write the credentials into `$HOME/.aws/credentials` file. If you check the content of the file, you should see something like this:
 
 ```
 [default]
