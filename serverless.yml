@@ -1,4 +1,4 @@
-service: candystore
+service: code-prodigy
 
 plugins:
   - serverless-python-requirements  # Python only
@@ -10,6 +10,7 @@ custom:
     dockerizePip: true
     dockerImage: lambci/lambda:build-python3.6
     dockerSsh: true
+    slim: true
 
 provider:
   name: aws
