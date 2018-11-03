@@ -19,6 +19,7 @@ provider:
   logRetentionInDays: 7
   stackTags:
     SERVICE: ${self:service}
+  iamRoleStatements:
   environment:
     FOO_VALUE: ${self:custom.foo}
 
