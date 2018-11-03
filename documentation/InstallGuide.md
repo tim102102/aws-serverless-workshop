@@ -20,16 +20,22 @@ We will be using [Homebrew](https://brew.sh/) to manage our software installs. T
 
 ### Installing Python + Pip
 
-Python should already be installed on your machine, however if it is not you should run the following
+**Python** should already be installed on your machine, however if it is not you should run the following
 
 ```bash
 brew install python
 ```
 
-We will also need pip for this workshop. You can install pip by running the following command.
+We will also need **pip** for this workshop. You can install pip by running the following command.
 
 ```bash
 sudo easy_install pip
+```
+
+Lastly, let's install **pipenv**. It automatically creates and manages a virtualenv for your projects to keep your python dependencies easy to manage
+
+```bash
+brew install pipenv 
 ```
 
 ### Installing Node + Serverless Framework
@@ -75,6 +81,13 @@ npm install -g serverless
 - [Python download page](https://www.python.org/downloads/release/python-367)
 - [Python 64-bit installer](https://www.python.org/ftp/python/3.6.7/python-3.6.7-amd64.exe)
 - [Python 32-bit installer](https://www.python.org/ftp/python/3.6.7/python-3.6.7.exe)
+
+
+Once you have **Python** and **pip** installed, let's install **pipenv**. It automatically creates and manages a virtualenv for your projects to keep your python dependencies easy to manage. In a command prompt window, run the following:
+
+```
+pip install --user pipenv
+```
 
 ### Installing AWS CLI
 The easiest way to install the AWS CLI is to download and run the MSI
